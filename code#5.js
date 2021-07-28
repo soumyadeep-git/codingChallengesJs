@@ -25,9 +25,9 @@ Hints:
 Apply this to the team's average scores 😉*/
 
 
-// const calcAverage = totalMatches => ((44 + 23 + 71) / totalMatches);
-// const koalas = calcAverage(3)
-// console.log(koalas);
+const calcAverage = totalMatches => ((44 + 23 + 71) / totalMatches);
+const koalas = calcAverage(3)
+console.log(koalas); //this is one way to calculate avg but only one at a time i.e, koalas .
 
 const calcAverage = (a, b, c) => (a + b + c) / 3;
 const dolphinsScore = calcAverage(44, 23, 71);
